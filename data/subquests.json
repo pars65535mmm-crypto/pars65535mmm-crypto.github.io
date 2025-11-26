@@ -1,0 +1,42 @@
+[
+  {
+    "id": "quest_event_001",
+    "title": "緊急依頼：スライムの異常増殖",
+    "description": "ダンジョン浅層でスライムが異常発生しているらしい。\n新米冒険者の脅威となる前に駆除してほしい。\n(推奨Lv: なし / 報酬: お金)",
+    "condition": null,
+    "battle": {
+      "name": "キング・マッスル・スライム",
+      "baseId": "slime",
+      "maxHp": 5000,
+      "attack": 150,
+      "speed": 15,
+      "defense": 50,
+      "expScale": 1.0,
+      "message": "「プヨプヨだと思った？ 残念、筋肉でした！」"
+    },
+    "reward": {
+      "gold": 10000,
+      "item": "potion",
+      "amount": 10
+    }
+  },
+  {
+    "id": "quest_story_elliot",
+    "title": "エリオットの追憶",
+    "description": "技術者エリオットが、かつての工房跡地で何かを探しているようだ。\n彼の過去に触れることになるかもしれない。\n(解放条件: 技術者エリオットの討伐)",
+    "condition": "gameClearHard",
+    "battle": {
+      "name": "暴走した試作機",
+      "baseId": "elliot",
+      "maxHp": 30000,
+      "attack": 300,
+      "speed": 40,
+      "actionsPerTurn": 2,
+      "message": "「ターゲット確認…排除行動ヲ開始シマス。」"
+    },
+    "reward": {
+      "material": "smithing_keystone",
+      "amount": 1
+    }
+  }
+]
