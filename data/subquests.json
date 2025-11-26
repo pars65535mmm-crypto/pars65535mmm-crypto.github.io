@@ -78,6 +78,20 @@
     }
   },
   {
+    "id": "quest_new_labyrinth",
+    "title": "未踏迷宮の化石竜",
+    "description": "「新しい迷宮の奥から、不気味な地響きが聞こえるんだ」\n調査隊からの救援依頼。どうやら骨だけの竜が暴れているらしい。\n(解放条件: 難易度Hardクリア)",
+    "condition": "gameClearHard",
+    "battle": {
+      "baseId": "fossil_dragon",
+      "message": "「グオオオオ……（乾いた咆哮が響く）」"
+    },
+    "reward": {
+      "gear": "rust_sword",
+      "amount": 1
+    }
+  },
+  {
     "id": "quest_pizza_reborn",
     "title": "ピザ屋の開店準備",
     "description": "「ボスラッシュとかいうブラック職場を辞めて、夢だったピザ屋を始めたんだ。だが、食材が足りなくてな…」\n元・技術者からの不穏な依頼。\n(解放条件: 技術者エリオットの討伐)",
