@@ -21,6 +21,25 @@
     }
   },
   {
+    "id": "quest_event_002",
+    "title": "緊急依頼：雷竜",
+    "description": "ダンジョン深層で雷竜が生まれてしまったらしい。\n中級冒険者の脅威となるため駆除してほしい。\n(推奨Lv: なし / 報酬: お金)",
+    "condition": null,
+    "battle": {
+      "name": "雷竜",
+      "baseId": "thunder_guardian",
+      "maxHp": 25000,
+      "attack": 300,
+      "speed": 30,
+      "defense": 300,
+      "expScale": 1.0,
+      "message": "「雷の怒りを思いしれ」"
+    },
+    "reward": {
+      "gold": 100000
+    }
+  },
+  {
     "id": "quest_story_elliot",
     "title": "エリオットの追憶",
     "description": "技術者エリオットが、かつての工房跡地で何かを探しているようだ。\n彼の過去に触れることになるかもしれない。\n(解放条件: 技術者エリオットの討伐)",
