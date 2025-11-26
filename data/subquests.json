@@ -81,7 +81,7 @@
     "id": "quest_pizza_reborn",
     "title": "ピザ屋の開店準備",
     "description": "「ボスラッシュとかいうブラック職場を辞めて、夢だったピザ屋を始めたんだ。だが、食材が足りなくてな…」\n元・技術者からの不穏な依頼。\n(解放条件: 技術者エリオットの討伐)",
-    "condition": "gameClearHard",
+    "condition": "alphaAndOmega",
     "battle": {
       "baseId": "elliot_pizza",
       "message": "「いらっしゃいませェ！ オーダーは『ミックスピザ』か！？」"
