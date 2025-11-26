@@ -40,6 +40,25 @@
     }
   },
   {
+    "id": "quest_event_003",
+    "title": "緊急依頼：水竜",
+    "description": "ダンジョン深層で水竜が生まれてしまったらしい。\n上級冒険者の脅威となるため駆除してほしい。\n(推奨Lv: なし / 報酬: お金)",
+    "condition": "noMagic",
+    "battle": {
+      "name": "水竜",
+      "baseId": "water_guardian",
+      "maxHp": 38000,
+      "attack": 100,
+      "speed": 15,
+      "defense": 600,
+      "expScale": 1.0,
+      "message": "「水は原初の母」"
+    },
+    "reward": {
+      "gold": 200000
+    }
+  },
+  {
     "id": "quest_story_elliot",
     "title": "エリオットの追憶",
     "description": "技術者エリオットが、かつての工房跡地で何かを探しているようだ。\n彼の過去に触れることになるかもしれない。\n(解放条件: 技術者エリオットの討伐)",
