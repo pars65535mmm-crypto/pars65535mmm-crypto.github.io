@@ -24,7 +24,7 @@
     "id": "quest_event_002",
     "title": "緊急依頼：雷竜",
     "description": "ダンジョン深層で雷竜が生まれてしまったらしい。\n中級冒険者の脅威となるため駆除してほしい。\n(推奨Lv: なし / 報酬: お金)",
-    "condition": null,
+    "condition": "quickClear",
     "battle": {
       "name": "雷竜",
       "baseId": "thunder_guardian",
