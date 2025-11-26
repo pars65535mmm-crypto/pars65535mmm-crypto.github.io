@@ -5,14 +5,14 @@
     "description": "ダンジョン浅層でスライムが異常発生しているらしい。\n新米冒険者の脅威となる前に駆除してほしい。\n(推奨Lv: なし / 報酬: お金)",
     "condition": null,
     "battle": {
-      "name": "キング・マッスル・スライム",
+      "name": "キング・スライム",
       "baseId": "slime",
       "maxHp": 5000,
       "attack": 150,
       "speed": 15,
       "defense": 50,
       "expScale": 1.0,
-      "message": "「プヨプヨだと思った？ 残念、筋肉でした！」"
+      "message": "「スライムだからって弱いわけじゃない」"
     },
     "reward": {
       "gold": 10000,
