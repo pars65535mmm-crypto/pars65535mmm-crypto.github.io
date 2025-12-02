@@ -107,15 +107,18 @@
     }
   },
   {
-            "id": "dq_muku",
-            "title": "【高難度】剣聖への挑戦",
-            "description": "「我が剣、未だ折れず。求む、死合い相手。」\n\n辺境の剣聖からの果し状です。\n※非常に強力な相手です。状態異常は一切通じません。",
-            "condition": "gameClearHard", 
-            "battle": {
-                "baseId": "sword_saint_muku",
-                "name": "剣聖",
-                "message": "老剣士は静かに刀に手をかけた…！"
-            },
-            "reward": { "material": "smithing_keystone", "amount": 1 } 
-        }
+    "id": "dq_muku",
+    "title": "【高難度】剣聖への挑戦",
+    "description": "「我が剣、未だ折れず。求む、死合い相手。」\n\n辺境の剣聖からの果し状です。\n※非常に強力な相手です。状態異常は一切通じません。",
+    "condition": "gameClearHard",
+    "battle": {
+      "baseId": "sword_saint_muku",
+      "name": "剣聖",
+      "message": "老剣士は静かに刀に手をかけた…！"
+    },
+    "reward": {
+      "material": "smithing_keystone",
+      "amount": 1
+    }
+  }
 ]
